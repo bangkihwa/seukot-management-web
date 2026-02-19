@@ -27,16 +27,10 @@ export default function LandingPage() {
 
           <div className="flex flex-col gap-4">
             <Link
-              to="/admin/login"
-              className="btn-primary-admin w-full text-center block"
-            >
-              관리자 로그인
-            </Link>
-            <Link
               to="/student/login"
               className="btn-primary-student w-full text-center block"
             >
-              학생 로그인
+              로그인
             </Link>
           </div>
 
